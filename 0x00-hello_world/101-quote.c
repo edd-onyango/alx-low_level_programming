@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char string_m [] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char dmm [] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, string_m, 59);
+	write(2, dm, 59);
 	return (1);
 }
 
