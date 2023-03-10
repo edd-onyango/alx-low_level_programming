@@ -21,4 +21,5 @@ find . -name "0-isupper.c" -o \
        -name "4-strpbrk.c" -o \
        -name "5-strstr.c" -o \
        -name "6-abs.c" -o \
+       -name "_putchar.c" -o \
        -name "9-strcpy.c" | xargs -I{} cp {} 0x09-static_libraries/
